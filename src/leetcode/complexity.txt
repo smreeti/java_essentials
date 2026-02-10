@@ -1,0 +1,179 @@
+### Time Complexity
+* How the running time grows as the input size (`n`) grows
+* Not actual seconds — growth rate 
+* Usually expressed using Big-O notation
+
+### Space Complexity
+* How much extra memory an algorithm needs as input size grows
+* Also expressed using Big-O
+
+## Time Complexity: how to calculate it
+
+### Step 1: Identify the input size
+Usually called `n`
+
+* Array length
+* Number of nodes
+* Size of string
+* etc.
+
+---
+
+### Step 2: Count the dominant operations
+These are things like:
+
+* Comparisons
+* Assignments
+* Arithmetic operations
+* Loop iterations
+
+---
+
+### Step 3: Drop constants & smaller terms
+Big-O ignores:
+
+* Constants (`2n → n`)
+* Less significant terms (`n² + n → n²`)
+
+---
+
+## Common patterns (memorize these)
+
+### 1️⃣ Constant time — O(1)
+
+```python
+x = arr[0]
+```
+* No matter how big `n` is, it’s the same work
+
+---
+
+### 2️⃣ Linear time — O(n)
+
+```python
+for i in range(n):
+    print(i)
+```
+* Loop runs `n` times
+
+---
+
+### 3️⃣ Quadratic time — O(n²)
+```python
+for i in range(n):
+    for j in range(n):
+        print(i, j)
+```
+
+* Nested loops → multiply
+---
+
+### 4️⃣ Logarithmic time — O(log n)
+```python
+binary_search(arr, target)
+```
+
+* Each step cuts the input in half
+---
+
+### 5️⃣ Linearithmic — O(n log n)
+
+* Efficient sorting algorithms:
+  * Merge sort
+  * Heap sort
+  * Quick sort (average case)
+
+---
+
+## Tricky but important cases
+
+### Sequential code
+
+```python
+for i in range(n): ...
+for j in range(n): ...
+```
+
+➡️ `O(n + n) = O(n)`
+
+---
+
+### Nested loops with different sizes
+
+```python
+for i in range(n):
+    for j in range(m):
+        ...
+```
+
+➡️ `O(n × m)`
+
+---
+
+### Conditionals
+
+```python
+if condition:
+    O(n)
+else:
+    O(n²)
+```
+
+➡️ Take the worst case → `O(n²)`
+
+---
+
+## Space Complexity: how to calculate it
+
+### What counts?
+
+* Variables
+* Arrays
+* Data structures
+* Recursive call stack
+
+### What doesn’t?
+
+* Input itself (usually excluded unless stated)
+
+---
+
+## Examples
+
+### Constant space — O(1)
+
+```python
+sum = 0
+for i in range(n):
+    sum += i
+```
+
+* Only one variable
+
+---
+
+### Linear space — O(n)
+
+```python
+arr = []
+for i in range(n):
+    arr.append(i)
+```
+
+* Memory grows with input
+
+---
+
+### Recursive space
+
+```python
+def factorial(n):
+    if n == 0:
+        return 1
+    return n * factorial(n-1)
+```
+
+* Call stack depth = `n`
+* Space complexity → O(n)
+
+---
