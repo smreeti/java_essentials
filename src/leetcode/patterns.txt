@@ -1,0 +1,202 @@
+--
+# 🧠 THE TOP 10 LEETCODE PATTERNS
+--
+
+# 1️⃣ Two Pointers
+### 🔥 Trigger Words:
+
+* Sorted array
+* Palindrome
+* Pair with target
+* Constant space
+* In-place
+
+### Shapes:
+* `left ↔ right`
+* `slow / fast`
+
+### Classic Problems:
+* Two Sum II
+* Valid Palindrome
+* Container With Most Water
+* Remove Duplicates
+* 3Sum (after sorting)
+
+---
+
+# 2️⃣ Sliding Window (Dynamic Two Pointers)
+
+### 🔥 Trigger Words:
+* Longest / shortest
+* Substring / subarray
+* Contiguous
+* At most / at least K
+* Without repeating
+
+### Shape:
+```
+left = 0
+for right in range:
+    expand window
+    shrink window if needed
+```
+
+### Classic Problems:
+* Longest Substring Without Repeating Characters
+* Minimum Size Subarray Sum
+* Permutation in String
+* Maximum Average Subarray
+
+---
+  
+# 3️⃣ HashMap / HashSet (Lookup Optimization)
+
+### 🔥 Trigger Words:
+
+* “Find pair”
+* Frequency count
+* Duplicates
+* First non-repeating
+* Complement logic
+
+### Classic Problems:
+
+* Two Sum (unsorted)
+* Valid Anagram
+* Group Anagrams
+* Top K Frequent Elements
+
+---
+
+# 4️⃣ Binary Search
+
+### 🔥 Trigger Words:
+
+* Sorted array
+* Search in O(log n)
+* Minimum / maximum in sorted structure
+* “Search space” problems
+
+### Shapes:
+
+* Classic binary search
+* Search on answer (binary search on range)
+
+### Classic Problems:
+
+* Binary Search
+* Search Insert Position
+* Find Peak Element
+* Koko Eating Bananas (search on answer)
+
+---
+
+# 5️⃣ Depth-First Search (DFS)
+
+### 🔥 Trigger Words:
+
+* Tree traversal
+* Backtracking
+* All possible combinations
+* Paths
+* Recursion naturally fits
+
+### Classic Problems:
+
+* Subsets
+* Permutations
+* Combination Sum
+* Path Sum
+* Number of Islands
+
+---
+
+# 6️⃣ Breadth-First Search (BFS)
+
+### 🔥 Trigger Words:
+
+* Shortest path (unweighted)
+* Level order traversal
+* Minimum steps
+* Spread simulation
+
+### Classic Problems:
+
+* Binary Tree Level Order
+* Rotting Oranges
+* Word Ladder
+* Minimum Depth of Tree
+
+---
+
+# 7️⃣ Backtracking
+
+(DFS + decision tree exploration)
+
+### 🔥 Trigger Words:
+
+* Generate all combinations
+* Generate all permutations
+* Sudoku
+* N-Queens
+
+### Core Idea:
+
+Choose → Explore → Undo (backtrack)
+
+---
+
+# 8️⃣ Dynamic Programming (DP)
+
+### 🔥 Trigger Words:
+
+* Maximum / minimum result
+* Count ways
+* Overlapping subproblems
+* Optimal choice
+* “Can we reach…”
+
+### Two Types:
+
+* 1D DP
+* 2D DP
+
+### Classic Problems:
+
+* Climbing Stairs
+* House Robber
+* Longest Increasing Subsequence
+* Coin Change
+* Edit Distance
+
+---
+
+# 9️⃣ Greedy
+
+### 🔥 Trigger Words:
+
+* “Minimum number of…”
+* “Maximum profit…”
+* Local optimal choice
+* Sorted intervals
+
+### Classic Problems:
+
+* Jump Game
+* Merge Intervals
+* Non-overlapping Intervals
+* Gas Station
+
+---
+
+# 🔟 Monotonic Stack / Queue
+
+### 🔥 Trigger Words:
+
+* Next greater element
+* Previous smaller element
+* Daily temperatures
+* Stock span
+* Histogram area
+
+
