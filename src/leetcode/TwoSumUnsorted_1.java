@@ -26,6 +26,7 @@ public class TwoSumUnsorted_1 {
 
         HashMap<Integer, Integer> hashMap = new HashMap<>();
 
+        //Time: O(n) and Space: O(n)
         for (int i = 0; i < nums.length; i++) {
             int diff = target - nums[i];
 

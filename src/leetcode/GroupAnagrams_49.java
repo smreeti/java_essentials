@@ -29,7 +29,7 @@ public class GroupAnagrams_49 {
         String[] strs = new String[]{"eat","tea","tan","ate","nat","bat"};
         Map<String, List> ansMap = new HashMap<>();
 
-        /*Time: O(n · k), Space: O(n · k)*/
+        /*Time: O(n * k), Space: O(n * k)*/
         for (String s: strs) {
             int[] count = new int[26];
 

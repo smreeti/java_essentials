@@ -40,6 +40,7 @@ public class ContainsDuplicate_217 {
             numbers[i] = Integer.parseInt(bufferedReader.readLine());
         }
 
+        //Time: O(n) and Space: O(n)
         HashSet<Integer> numList = new HashSet<>();
         boolean hasDuplicates = false;
 

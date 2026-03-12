@@ -17,6 +17,7 @@ Output: [0,0,9,0,0]
 * */
 public class ProductOfArrayExceptSelf_238 {
 
+
     public static void main(String[] args) {
         int[] nums = new int[]{1,2,3,4};
         int[] answer = new int[nums.length];
@@ -33,6 +34,7 @@ public class ProductOfArrayExceptSelf_238 {
 //            }
 //        }
 
+        //Time: O(2n), Space: O(1)
         Arrays.fill(answer, 1);
         int pre = 1;
         int post = 1;

@@ -23,6 +23,8 @@ Output: 3
 Explanation: The answer is "wke", with the length of 3.
 Notice that the answer must be a substring, "pwke" is a subsequence and not a substring.
 * */
+
+//So the formula for inclusive range length is always: end - start + 1
 //Sliding Window + 2 pointer
 public class LongestString_3 {
 

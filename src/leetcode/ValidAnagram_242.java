@@ -49,6 +49,7 @@ public class ValidAnagram_242 {
 //        System.out.println(isAnagram ? "Anagram" : "Not an anagram");
 
 
+        //Time: O(n) and Space: O(1)
         //Option 2 This will throw ArrayIndexOutOfBoundsException if input contains anything outside a–z.
         int[] charCounts = new int[26];
         boolean isAnagram = true;

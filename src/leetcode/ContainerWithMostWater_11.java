@@ -18,7 +18,7 @@ Output: 1
 * */
 public class ContainerWithMostWater_11 {
     public static void main(String[] args) {
-        int[] heights = {1, 8, 6, 2, 5, 4, 8, 3, 7};
+        int[] heights = {1, 3, 2, 5, 25, 24, 5};
         int maxArea = 0;
         int left = 0;
         int right = heights.length - 1;
@@ -32,7 +32,7 @@ public class ContainerWithMostWater_11 {
 
             if (heights[left] < heights[right]) {
                 left++;
-            } else if (heights[left] > heights[right]) {
+            } else {
                 right--;
             }
         }

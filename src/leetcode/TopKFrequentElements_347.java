@@ -27,6 +27,9 @@ public class TopKFrequentElements_347 {
             count.put(num, count.getOrDefault(num, 0) + 1);
         }
 
+        //Building map → O(n)
+        //Heap operations → O(n log k)
+        //Total Time → O(n log k) and Space -> O(n)
         Queue<Integer> queue = new PriorityQueue<>(Comparator.comparingInt(count::get));
 
         for (int n: count.keySet()) {
