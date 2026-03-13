@@ -2,14 +2,14 @@ package leetcode.twoPointer;
 
 import java.util.Arrays;
 
-public class SortColors {
+public class SortColors_75 {
 
     public static void main(String[] args) {
         sortColors();
     }
 
     public static void sortColors() {
-        int[] nums = new int[]{2, 0, 2, 1, 1, 0};
+        int[] nums = new int[]{1,2,0};
         int low = 0, mid = 0, high = nums.length - 1;
 
         while (mid <= high) {

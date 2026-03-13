@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.hash;
 
 import java.util.Arrays;
 import java.util.HashSet;
@@ -24,6 +24,7 @@ Output: 3*/
 public class LongestConsecutiveSequence_128 {
     public static void main(String[] args) {
         int[] nums = new int[]{0, 5, 3, -1, 200, -1, 0, 2, 7, 4};
+
 
         //Time: O(n log n)
 //        Arrays.sort(nums);

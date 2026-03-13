@@ -2,7 +2,7 @@ package leetcode.twoPointer;
 
 import java.util.Arrays;
 
-public class ThreeSumClosest {
+public class ThreeSumClosest_16 {
 
     public static void main(String[] args) {
 
