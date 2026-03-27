@@ -53,8 +53,7 @@ class Hatchback implements Car {
 }
 
 // Concrete Product for North America Car Specification
-class NorthAmericaSpecification
-        implements CarSpecification {
+class NorthAmericaSpecification implements CarSpecification {
     public void display()
     {
         System.out.println(
@@ -76,12 +75,9 @@ public class AbstractFactoryDemo {
     public static void main(String[] args)
     {
         // Creating cars for North America
-        CarFactory northAmericaFactory
-                = new NorthAmericaCarFactory();
-        Car northAmericaCar
-                = northAmericaFactory.createCar();
-        CarSpecification northAmericaSpec
-                = northAmericaFactory.createSpecification();
+        CarFactory northAmericaFactory = new NorthAmericaCarFactory();
+        Car northAmericaCar = northAmericaFactory.createCar();
+        CarSpecification northAmericaSpec = northAmericaFactory.createSpecification();
 
         northAmericaCar.assemble();
         northAmericaSpec.display();
@@ -89,8 +85,7 @@ public class AbstractFactoryDemo {
         // Creating cars for Europe
         CarFactory europeFactory = new EuropeCarFactory();
         Car europeCar = europeFactory.createCar();
-        CarSpecification europeSpec
-                = europeFactory.createSpecification();
+        CarSpecification europeSpec = europeFactory.createSpecification();
 
         europeCar.assemble();
         europeSpec.display();
