@@ -1,6 +1,6 @@
 This repo is a collection of coding problems I’ve solved to strengthen my understanding of **data structures, algorithms, object-oriented programming (OOP), and other JAVA** concepts.
 
-### 📊 Data Structures & Algorithms
+### Data Structures & Algorithms
 * Arrays & Strings
 * Linked Lists
 * Stacks & Queues
@@ -8,7 +8,7 @@ This repo is a collection of coding problems I’ve solved to strengthen my unde
 * Hash Maps / Sets
 * Heaps / Priority Queues
 
-### 🔁 Coding Patterns
+### Coding Patterns
 * Sliding Window
 * Two Pointers
 * Fast & Slow Pointers
@@ -17,7 +17,7 @@ This repo is a collection of coding problems I’ve solved to strengthen my unde
 * Dynamic Programming
 * Greedy Algorithms
 
-### 🏗️ Object-Oriented Programming (OOP)
+### Object-Oriented Programming (OOP)
 * Classes & Objects
 * Encapsulation
 * Inheritance
