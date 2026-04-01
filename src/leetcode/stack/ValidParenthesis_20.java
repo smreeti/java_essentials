@@ -36,7 +36,7 @@ public class ValidParenthesis_20 {
 
     //Time and Space: O(n)
     public static void main(String[] args) {
-        String s = "()[]{}";
+        String s = "(m)[]{}";
 
         System.out.println(isValid(s));
         System.out.println(isValidByMap(s));

@@ -32,6 +32,7 @@ Explanation: The sum of -1 and 0 is -1. Therefore index1 = 1, index2 = 2. We ret
 * */
 public class TwoSum_167 {
 
+    /*“Since the array is sorted, I can use a two-pointer approach to reduce time complexity to O(n) instead of O(n²). Space complexity is O(1) since no extra data structures are used.”*/
     public static void main(String[] args) {
         int[] nums = new int[]{2, 7, 11, 15};
         int target = 9;

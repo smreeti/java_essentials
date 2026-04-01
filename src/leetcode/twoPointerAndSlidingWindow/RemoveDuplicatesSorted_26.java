@@ -33,6 +33,12 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 * */
 public class RemoveDuplicatesSorted_26 {
 
+    /*
+    * Time: O(n)
+        Single pass through array
+        Space: O(1)
+        In-place, no extra structures
+    * */
     public static void main(String[] args) {
 
         int[] nums = new int[]{1, 1, 2};

@@ -36,6 +36,9 @@ minStack.getMin(); // return -2
 * */
 public class MinStack_155 {
 
+    /*
+    * Time Complexity: O(1) for all operations
+      Space Complexity:  O(n)*/
     public static void main(String[] args) {
         MinStack minStack = new MinStack();
         minStack.push(-2);
